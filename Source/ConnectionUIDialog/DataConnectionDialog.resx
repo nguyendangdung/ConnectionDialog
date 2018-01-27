@@ -178,7 +178,7 @@
     <value>0, 0, 3, 0</value>
   </data>
   <data name="dataSourceTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 20</value>
+    <value>362, 20</value>
   </data>
   <data name="dataSourceTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -208,7 +208,7 @@
     <value>System</value>
   </data>
   <data name="changeDataSourceButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 0</value>
+    <value>368, 0</value>
   </data>
   <data name="changeDataSourceButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 0, 0</value>
@@ -244,7 +244,7 @@
     <value>1</value>
   </data>
   <data name="dataSourceTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>405, 23</value>
+    <value>443, 23</value>
   </data>
   <data name="dataSourceTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -280,7 +280,7 @@
     <value>3, 0, 3, 0</value>
   </data>
   <data name="containerControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>405, 0</value>
+    <value>443, 0</value>
   </data>
   <data name="containerControl.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -310,7 +310,7 @@
     <value>System</value>
   </data>
   <data name="advancedButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 57</value>
+    <value>374, 57</value>
   </data>
   <data name="advancedButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>81, 23</value>
@@ -346,7 +346,7 @@
     <value>12, 86</value>
   </data>
   <data name="separatorPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>405, 2</value>
+    <value>443, 2</value>
   </data>
   <data name="separatorPanel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -502,7 +502,7 @@
     <value>1</value>
   </data>
   <data name="buttonsTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>261, 94</value>
+    <value>299, 94</value>
   </data>
   <data name="buttonsTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
@@ -534,6 +534,9 @@
   <metadata name="copyButton.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="copyButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
   <data name="copyButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>122, 94</value>
   </data>
@@ -568,7 +571,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>429, 129</value>
+    <value>467, 129</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>332, 156</value>
