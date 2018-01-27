@@ -3,3 +3,5 @@
 *.suo
 [Bb]in/
 [Oo]bj/
+packages
+.vs
