@@ -74,6 +74,8 @@
     <Compile Include="DynamicPropertyDescriptor.cs" />
     <Compile Include="HelpUtils.cs" />
     <Compile Include="LayoutUtils.cs" />
+    <Compile Include="Microsoft.Data.ConnectionUI\IDataConnectionProperties.cs" />
+    <Compile Include="Microsoft.Data.ConnectionUI\IDataConnectionUIControl.cs" />
     <Compile Include="NativeMethods.cs" />
     <Compile Include="OdbcConnectionProperties.cs" />
     <Compile Include="OdbcConnectionUIControl.cs">
@@ -173,13 +175,6 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ConnectionUI\Microsoft.Data.ConnectionUI.csproj">
-      <Project>{4E92A2A2-FE80-4021-A434-BF37A63CD69D}</Project>
-      <Name>Microsoft.Data.ConnectionUI</Name>
-      <Comment>Needs 'microsoft.data.connectionui.dll'</Comment>
-    </ProjectReference>
   </ItemGroup>
   <!--Import the targets-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
