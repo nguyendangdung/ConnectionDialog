@@ -1520,5 +1520,11 @@ namespace Microsoft.Data.ConnectionUI
 		private bool _saveSelection = true;
 		private IDictionary<DataSource, IDictionary<DataProvider, IDataConnectionUIControl>> _connectionUIControlTable = new Dictionary<DataSource, IDictionary<DataProvider, IDataConnectionUIControl>>();
 		private IDictionary<DataSource, IDictionary<DataProvider, IDataConnectionProperties>> _connectionPropertiesTable = new Dictionary<DataSource, IDictionary<DataProvider, IDataConnectionProperties>>();
-	}
+
+        private void copyButton_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(ConnectionProperties.ToFullString());
+            MessageBox.Show("Done", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+    }
 }
